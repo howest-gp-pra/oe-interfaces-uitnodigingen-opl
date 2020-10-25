@@ -1,0 +1,22 @@
+﻿<Window x:Class="Pra.Uitnodigingen.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pra.Uitnodigingen.Wpf"
+        mc:Ignorable="d"
+        Title="Oefening Interfaces : uitnodigingen" Height="491" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ListBox x:Name="lstContacts" HorizontalAlignment="Left" Height="277" Margin="34,54,0,0" VerticalAlignment="Top" Width="256" SelectionChanged="lstContacts_SelectionChanged"/>
+        <ComboBox x:Name="cmbFilter" HorizontalAlignment="Left" Height="39" Margin="34,10,0,0" VerticalAlignment="Top" Width="256" SelectionChanged="cmbFilter_SelectionChanged"/>
+        <TextBlock x:Name="tbkInfo" HorizontalAlignment="Left" Height="104" Margin="33,344,0,0" Text="" Background="LightYellow" Foreground="SteelBlue" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <Button x:Name="btnBirthday" Content="Maak uitnodigingen verjaardag" HorizontalAlignment="Left" Height="63" Margin="318,10,0,0" VerticalAlignment="Top" Width="220" Click="btnBirthday_Click"/>
+        <Button x:Name="btnExhibition" Content="Maak uitnodigingen tentoonstelling" HorizontalAlignment="Left" Height="63" Margin="570,10,0,0" VerticalAlignment="Top" Width="220" Click="btnExhibition_Click"/>
+        <Grid Margin="318,89,10,10" >
+            <ScrollViewer>
+                <TextBlock x:Name="tbkInvitations" Text="" TextWrapping="Wrap"  />
+
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pra.Uitnodigingen.Wpf", "Pra.Uitnodigingen.Wpf\Pra.Uitnodigingen.Wpf.csproj", "{AD36D1AC-81EE-4319-9472-264B10FF3BF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pra.Uitnodigingen.Core", "Pra.Uitnodigingen.Core\Pra.Uitnodigingen.Core.csproj", "{C06EDA22-366C-42DF-B229-A44439A6FF36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD36D1AC-81EE-4319-9472-264B10FF3BF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD36D1AC-81EE-4319-9472-264B10FF3BF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD36D1AC-81EE-4319-9472-264B10FF3BF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD36D1AC-81EE-4319-9472-264B10FF3BF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06EDA22-366C-42DF-B229-A44439A6FF36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06EDA22-366C-42DF-B229-A44439A6FF36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06EDA22-366C-42DF-B229-A44439A6FF36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06EDA22-366C-42DF-B229-A44439A6FF36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C24E0C30-E597-48F3-A028-A1C74EF53BCB}
+	EndGlobalSection
+EndGlobal
